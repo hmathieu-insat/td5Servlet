@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <description></description>
+    <display-name>LoginVerify</display-name>
+    <servlet-name>LoginVerify</servlet-name>
+    <servlet-class>LoginVerify</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginVerify</servlet-name>
+    <url-pattern>/LoginVerify</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LoginVerify2</display-name>
+    <servlet-name>LoginVerify2</servlet-name>
+    <servlet-class>LoginVerify2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginVerify2</servlet-name>
+    <url-pattern>/LoginVerify2</url-pattern>
+  </servlet-mapping>
+</web-app>
